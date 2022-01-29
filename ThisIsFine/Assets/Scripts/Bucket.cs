@@ -9,6 +9,7 @@ public bool insideWaterTrigger = false;
 public bool bucketEmpty = true;
 
 public GameObject waterPlane;
+public GameObject waterParticle;
 
 
     // Start is called before the first frame update
@@ -35,6 +36,7 @@ public GameObject waterPlane;
             bucketEmpty = true;
             print("bucket empty");
             waterPlane.SetActive(false);
+            waterParticle.GetComponent<ParticleSystem>().Play();
             
         }
     
