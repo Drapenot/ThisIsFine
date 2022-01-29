@@ -6,6 +6,7 @@ public interface ICanBeSetOnFire
 {
     bool IsBurning();
     void SetOnFire();
+    void Extinguish();
     float BurnChance
 	{
         get;
