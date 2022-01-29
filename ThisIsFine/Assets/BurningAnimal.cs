@@ -11,7 +11,8 @@ public class BurningAnimal : MonoBehaviour, ICanBeSetOnFire
     private BurningAnimalMovement _burningAnimalMovement;
     private bool _isFalling = true;
 
-    public ParticleSystem _fire;
+    public ParticleSystem[] _fires;
+    private List<Transform> _fireParents = new List<Transform>();
 
     private CharacterController _characterController;
     private NavMeshAgent _navMeshAgent;
@@ -56,15 +57,43 @@ public class BurningAnimal : MonoBehaviour, ICanBeSetOnFire
         _navMeshAgent.enabled = false;
         _wanderScript.enabled = false;
 
-        _fire = GetComponentInChildren<ParticleSystem>();
+        _fires = GetComponentsInChildren<ParticleSystem>(true);
+
+        for (int i = 0; i < _fires.Length; i++)
+		{
+            var parent = _fires[i].transform.parent;
+            if(!_fireParents.Contains(parent))
+			{
+                _fireParents.Add(parent);
+                //var parentOffset = parent.localPosition;
+                //foreach (var child in parent.transform.GetComponentsInChildren<ParticleSystem>())
+                {
+                 //   child.transform.localPosition = parentOffset;
+                }
+                //parent.localPosition = Vector3.zero;
+            }
+		}
+
+        foreach(var fireParent in _fireParents)
+		{
+            var parentOffset = fireParent.localPosition;
+            foreach (var child in fireParent.transform.GetComponentsInChildren<ParticleSystem>())
+            {
+                child.transform.localPosition = parentOffset;
+            }
+            fireParent.localPosition = Vector3.zero;
+        }
         _isFalling = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        _fire.transform.position = _navMeshAgent.transform.position;
-        _fire.transform.eulerAngles = Vector3.zero;
+        foreach(var fireParent in _fireParents)
+		{
+            fireParent.rotation = _navMeshAgent.transform.rotation;
+            fireParent.position = _navMeshAgent.transform.position;
+        }
 
         if (_burningAnimalMovement.burnState == BurningAnimalMovement.BurnState.burning && !_isFalling)
 		{
@@ -73,7 +102,10 @@ public class BurningAnimal : MonoBehaviour, ICanBeSetOnFire
             if(_currentHP <= 0)
 			{
                 _burningAnimalMovement.burnState = BurningAnimalMovement.BurnState.dead;
-                _fire.Stop();
+                foreach (var fire in _fires)
+                {
+                    fire.Stop();
+                }
                 //Sound when dying here!
             }
 		}
@@ -82,14 +114,20 @@ public class BurningAnimal : MonoBehaviour, ICanBeSetOnFire
     public void Extinguish()
 	{
         _burningAnimalMovement.burnState = BurningAnimalMovement.BurnState.extinguished;
-        _fire.Stop();
+        foreach (var fire in _fires)
+        {
+            fire.Stop();
+        }
         //Sound when getting extinguished here!
-	}
+    }
 
     public void SetOnFire()
 	{
         _burningAnimalMovement.burnState = BurningAnimalMovement.BurnState.burning;
-        _fire.Play();
+        foreach (var fire in _fires)
+        {
+            fire.Play();
+        }
         //sound when being set on fire here!
     }
 
