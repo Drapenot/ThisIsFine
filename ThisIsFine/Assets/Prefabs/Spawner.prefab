@@ -1,0 +1,215 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3810726909987104263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3810726909987104259}
+  - component: {fileID: 3810726909987104256}
+  - component: {fileID: 3810726909987104257}
+  - component: {fileID: 3810726909987104262}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3810726909987104259
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3810726909987104263}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 25, z: 0}
+  m_LocalScale: {x: 10, y: 10, z: 10}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &3810726909987104256
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3810726909987104263}
+  m_Mesh: {fileID: 10209, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &3810726909987104257
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3810726909987104263}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &3810726909987104262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3810726909987104263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f5ea71a53f594304994e1dcd3dc094db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animalList:
+  - burningAnimal: {fileID: 4190556027537567428, guid: e836b2718e1482d4f9db867ac0fd75ff, type: 3}
+    cuteness: 20
+  - burningAnimal: {fileID: 5194008950577220402, guid: f41e28a8739fb0e42b59d320b9c3e1d7, type: 3}
+    cuteness: 10
+  - burningAnimal: {fileID: 4920303837832505037, guid: 5c6b8e931f2cf824cb5123d4d66694a0, type: 3}
+    cuteness: 13
+  - burningAnimal: {fileID: 4006719074537035000, guid: 782ed3bdc8cdd2942ba9ba969bad19cc, type: 3}
+    cuteness: 50
+  - burningAnimal: {fileID: 332128962471467403, guid: 04738ab0b138f5546ac44659785277fe, type: 3}
+    cuteness: 50
+  - burningAnimal: {fileID: 3888072465966754660, guid: ff7a1253b5dae4144b405ec06502492f, type: 3}
+    cuteness: 50
+  - burningAnimal: {fileID: 3296258450191366378, guid: 050b0dbcf333243419895d2d732d8093, type: 3}
+    cuteness: 60
+  - burningAnimal: {fileID: 2666213869267081881, guid: 75b1d628d429f304588ce1d65d3661db, type: 3}
+    cuteness: 25
+  - burningAnimal: {fileID: 4580923512299432660, guid: 68e5bf8dc53f46d47b0dbe6c546d467e, type: 3}
+    cuteness: 22
+  - burningAnimal: {fileID: 7891930354858942748, guid: 6990b865496e4e541b86957baddee904, type: 3}
+    cuteness: 22
+  - burningAnimal: {fileID: 1332384360070735890, guid: f193bb5af0edfa74bb108cf658284553, type: 3}
+    cuteness: 22
+  - burningAnimal: {fileID: 2337028198276922616, guid: 1588b66129c5af841881fa53c0620f87, type: 3}
+    cuteness: 15
+  - burningAnimal: {fileID: 9056226586486235887, guid: 96fa851e5260ed346b5a7223f64e8166, type: 3}
+    cuteness: 30
+  - burningAnimal: {fileID: 4786644374957027073, guid: 322681ae5d1302a41944c70fcd60f35b, type: 3}
+    cuteness: 30
+  - burningAnimal: {fileID: 6933217018106478827, guid: 8717c9eff98789548abeaf4ac2ef13e2, type: 3}
+    cuteness: 45
+  - burningAnimal: {fileID: 7929665086224633058, guid: 6adc08687111dad4da12aef2e67a4f22, type: 3}
+    cuteness: 45
+  - burningAnimal: {fileID: 3296527860714313111, guid: d8ad33b68a74e8b4788261cfdebc8bc3, type: 3}
+    cuteness: 50
+  - burningAnimal: {fileID: 8464718533123872293, guid: a9f6cd4ab3381de4b9c0f6f1cffb602c, type: 3}
+    cuteness: 40
+  - burningAnimal: {fileID: 1088793652832141281, guid: e546d8e07c4e5e140b4fda7b17ddbe2b, type: 3}
+    cuteness: 40
+  - burningAnimal: {fileID: 7195435036198404938, guid: 0a6e4ac5aefe5aa4798c1c8e2f74d4cc, type: 3}
+    cuteness: 10
+  - burningAnimal: {fileID: 1744534886994670429, guid: 691ee458cb76ec043b53bc6d947c7662, type: 3}
+    cuteness: 8
+  - burningAnimal: {fileID: 696483022990738413, guid: 6cf7b63c7479a334da529fee9e3146d6, type: 3}
+    cuteness: 10
+  - burningAnimal: {fileID: 7428952582305152115, guid: 03ef5541f0a021d43b52e159d09f85a5, type: 3}
+    cuteness: 15
+  - burningAnimal: {fileID: 777604989477630782, guid: 1ab71889f0b3a9b47a4081153d35ccf9, type: 3}
+    cuteness: 10
+  - burningAnimal: {fileID: 7233808460807595415, guid: a7fee1389ec93e4488f42bee2e2b8cd9, type: 3}
+    cuteness: 4
+  - burningAnimal: {fileID: 1057918530695481064, guid: d2997974184e34c4fa9ca4968fe5896e, type: 3}
+    cuteness: 4
+  - burningAnimal: {fileID: 3355441006577453139, guid: 604b52e478cc5b340a32b0901f59237c, type: 3}
+    cuteness: 4
+  - burningAnimal: {fileID: 4673307643327303424, guid: b796cc8c88f45f145a6890c0e867e356, type: 3}
+    cuteness: 35
+  - burningAnimal: {fileID: 7892622844229590011, guid: d7ff4e1b5ece40d45b5fcaaca352d21a, type: 3}
+    cuteness: 2
+  - burningAnimal: {fileID: 3434020024034599376, guid: 46fb9fdd0402d5743906bd2eb15b6900, type: 3}
+    cuteness: 2
+  - burningAnimal: {fileID: 4209460908604610865, guid: f4afd3e4d4e1af34b97e6c86d3d8f39c, type: 3}
+    cuteness: 2
+  - burningAnimal: {fileID: 7258944207707648574, guid: 758c1f90ffbb5044daa6bdeaf429d401, type: 3}
+    cuteness: 2
+  - burningAnimal: {fileID: 5580752969448468149, guid: 182a10217ed0aee499911fc8eec1f746, type: 3}
+    cuteness: 7
+  - burningAnimal: {fileID: 4502594821530478126, guid: 460faaab25a88a94d8cc0f6dcc9c9bcd, type: 3}
+    cuteness: 7
+  - burningAnimal: {fileID: 2504979699187559865, guid: 939eb08738b4665469345e8f953f21a3, type: 3}
+    cuteness: 7
+  - burningAnimal: {fileID: 8769919957706817616, guid: 8f6c04fe39c80b8489eafe241b3e9ff1, type: 3}
+    cuteness: 5
+  - burningAnimal: {fileID: 9195074764380784842, guid: 5d826aa00de56304db0b33bc650512d0, type: 3}
+    cuteness: 1
+  - burningAnimal: {fileID: 7817423569058131124, guid: 34687856c53af6f41acec35268b46963, type: 3}
+    cuteness: 10
+  - burningAnimal: {fileID: 3553771755429602442, guid: 54899aeaa06d3c84a9db3caf6796c1cf, type: 3}
+    cuteness: 12
+  - burningAnimal: {fileID: 1895078975845274587, guid: 556102d5061f2194798caa239176e613, type: 3}
+    cuteness: 20
+  - burningAnimal: {fileID: 5272943505138879497, guid: 2860d1ab0a162c14fa3266400bdd74e4, type: 3}
+    cuteness: 5
+  - burningAnimal: {fileID: 4955793314143172982, guid: 290e4556508f7e749a42ac0dcc791441, type: 3}
+    cuteness: 50
+  - burningAnimal: {fileID: 7333537448838179230, guid: 6b93f4d8141f6844aa36ffe1e67a8423, type: 3}
+    cuteness: 50
+  - burningAnimal: {fileID: 8494118770789173518, guid: d59d8736e520a9a4ca7b62d020ae805e, type: 3}
+    cuteness: 10
+  - burningAnimal: {fileID: 6361167180171627763, guid: 62509e32a4b56154ebd5528c8cb49b9f, type: 3}
+    cuteness: 35
+  - burningAnimal: {fileID: 7702520196937099475, guid: 9276d0482f6500d46a8b6dfc39f6fb36, type: 3}
+    cuteness: 20
+  - burningAnimal: {fileID: 2614846771318413691, guid: 3d9a00c6b5708ec45aa15c18401d58ee, type: 3}
+    cuteness: 1
+  - burningAnimal: {fileID: 6924666830109325640, guid: 4f73c2c617d5c4549a9ce33c03a7baf4, type: 3}
+    cuteness: 1
+  - burningAnimal: {fileID: 6835858133627575503, guid: 8f9b005e79f67b24eb7efc45067ff630, type: 3}
+    cuteness: 0.1
+  - burningAnimal: {fileID: 8411053804814173833, guid: 18d409b4106cc6f4f835c4ab1c48138a, type: 3}
+    cuteness: 0.1
+  - burningAnimal: {fileID: 2861929633342794201, guid: 6124e9f19266580439d480afa1f63054, type: 3}
+    cuteness: 0.1
+  - burningAnimal: {fileID: 3690168373908973242, guid: 5cd903e608f2be04cb0104add3daa053, type: 3}
+    cuteness: 0.1
+  - burningAnimal: {fileID: 5956149495134482366, guid: 8d274dbbce56d544288d8989e14e826a, type: 3}
+    cuteness: 0.1
+  - burningAnimal: {fileID: 3164372108676276883, guid: 9c6de2d44e18fda439361f04224ee1d1, type: 3}
+    cuteness: 3
+  - burningAnimal: {fileID: 4422293840156586078, guid: 2d6de4c484e1e424485b5ef8b8be75a3, type: 3}
+    cuteness: 4
+  - burningAnimal: {fileID: 1921065607906570239, guid: 85f9f525d28ef3348867457cff71a6da, type: 3}
+    cuteness: 15
+  - burningAnimal: {fileID: 6126858293122009074, guid: 3f7c41c3294735b4389f174c266572e8, type: 3}
+    cuteness: 2
+  - burningAnimal: {fileID: 4560894397263437418, guid: 8ac65604bef4bd246aef7612c1155d91, type: 3}
+    cuteness: 15
+  - burningAnimal: {fileID: 7876223517607153688, guid: 408ec6519e655de4084f8c66585b86bc, type: 3}
+    cuteness: 15
