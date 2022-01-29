@@ -1,0 +1,6 @@
+{6eb67a2e-7e73-413d-a192-780ae49c42e5} bank:/Master
+{f6ab5afa-0f08-0d7f-27db-f2f4156f447d} bank:/Master.strings
+{7f219056-4b75-4933-a43c-1eb686ab9014} bus:/
+{9e2f073f-a6b7-464b-b158-87236d710724} bus:/Reverb
+{13644968-0480-46b3-8ecc-38eb138c1765} event:/TestSound
+{a8227a8d-ac23-4109-a167-1c5c974943b0} event:/sfx_fire
