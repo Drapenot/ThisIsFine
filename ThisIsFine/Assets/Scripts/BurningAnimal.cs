@@ -26,6 +26,9 @@ public class BurningAnimal : MonoBehaviour, ICanBeSetOnFire
     [Range(0,1)]
     private float _burnChance = 0.5f;
 
+    public GameObject _animalSoundPrefab;
+    private GameObject _animalSoundInstance;
+
     public float BurnChance
 	{
         get
@@ -88,7 +91,10 @@ public class BurningAnimal : MonoBehaviour, ICanBeSetOnFire
             }
             fireParent.localPosition = Vector3.zero;
         }
+
         _isFalling = true;
+
+        _animalSoundInstance = GameObject.Instantiate(_animalSoundPrefab, transform);        
     }
 
     // Update is called once per frame
@@ -112,6 +118,8 @@ public class BurningAnimal : MonoBehaviour, ICanBeSetOnFire
                     fire.Stop();
                 }
                 //Sound when dying here!
+                var foundGameObject = GetSoundComponentWithName("dying");
+                foundGameObject.SetActive(true);
             }
 		}
     }
@@ -173,4 +181,20 @@ public class BurningAnimal : MonoBehaviour, ICanBeSetOnFire
             }
         }
     }
+
+    private GameObject GetSoundComponentWithName(string name)
+	{
+        for(int i = 0; i < _animalSoundInstance.transform.childCount; i++)
+		{
+            var child = _animalSoundInstance.transform.GetChild(i);
+
+            if(child.name == name)
+			{
+                return child.gameObject;
+			}
+		}
+
+        Debug.LogError("Sound Object with name " + name + " could not be found");
+        return null;
+	}
 }
