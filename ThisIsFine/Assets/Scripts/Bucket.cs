@@ -8,10 +8,11 @@ public class Bucket : MonoBehaviour
 public bool insideWaterTrigger = false;
 public bool bucketEmpty = true;
 
-public bool clicked = false;
-
 public GameObject waterPlane;
 public GameObject waterParticle;
+public GameObject bullet;
+
+
 
 
     // Start is called before the first frame update
@@ -27,6 +28,7 @@ public GameObject waterParticle;
 
         if (Input.GetButtonDown("Fire1") && bucketEmpty && insideWaterTrigger)
         {
+        
             bucketEmpty = false;
             print("bucket filled");
             waterPlane.SetActive(true);
@@ -35,12 +37,13 @@ public GameObject waterParticle;
 
         if (Input.GetButtonDown("Fire1") && !bucketEmpty && !insideWaterTrigger)
         {
-            clicked = true;
             bucketEmpty = true;
             print("bucket empty");
             waterPlane.SetActive(false);
             waterParticle.GetComponent<ParticleSystem>().Play();
-            clicked = false;
+            var instance = Instantiate(bullet, transform.position + transform.forward * 1.5f, transform.rotation);
+            instance.GetComponent<Rigidbody>().AddForce(transform.forward * 200f);
+            Destroy(instance, 0.8f);
         }
     
     }
