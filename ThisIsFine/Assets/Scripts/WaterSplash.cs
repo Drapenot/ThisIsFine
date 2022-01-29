@@ -5,7 +5,6 @@ using UnityEngine;
 public class WaterSplash : MonoBehaviour
 {
 
-    public Bucket bucketRef;
 
     // Start is called before the first frame update
     void Start()
@@ -16,7 +15,7 @@ public class WaterSplash : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+  
     }
 
     void OnTriggerEnter(Collider other)
@@ -24,10 +23,9 @@ public class WaterSplash : MonoBehaviour
 
         var canBeSetOnFire = other.GetComponent<ICanBeSetOnFire>();
 
-        if(canBeSetOnFire != null && canBeSetOnFire.IsBurning() && bucketRef.clicked == true) 
+        if(canBeSetOnFire != null && canBeSetOnFire.IsBurning()) 
         {   
         canBeSetOnFire.Extinguish();
-        print("Machallesnass");
         }
     }
 
