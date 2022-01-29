@@ -8,7 +8,10 @@ public class Bucket : MonoBehaviour
 public bool insideWaterTrigger = false;
 public bool bucketEmpty = true;
 
+public bool clicked = false;
+
 public GameObject waterPlane;
+public GameObject waterParticle;
 
 
     // Start is called before the first frame update
@@ -32,10 +35,12 @@ public GameObject waterPlane;
 
         if (Input.GetButtonDown("Fire1") && !bucketEmpty && !insideWaterTrigger)
         {
+            clicked = true;
             bucketEmpty = true;
             print("bucket empty");
             waterPlane.SetActive(false);
-            
+            waterParticle.GetComponent<ParticleSystem>().Play();
+            clicked = false;
         }
     
     }
@@ -43,7 +48,7 @@ public GameObject waterPlane;
     void OnTriggerEnter(Collider other)
     {
 
-        if(other.gameObject.layer == 4 && isActiveAndEnabled)
+        if(other.gameObject.layer == 4)
         {   
             insideWaterTrigger = true;
             print(insideWaterTrigger);
@@ -53,7 +58,7 @@ public GameObject waterPlane;
     void OnTriggerExit(Collider other)
     {
 
-        if(other.gameObject.layer == 4 && isActiveAndEnabled)
+        if(other.gameObject.layer == 4)
         {   
             insideWaterTrigger = false;
             print(insideWaterTrigger);
