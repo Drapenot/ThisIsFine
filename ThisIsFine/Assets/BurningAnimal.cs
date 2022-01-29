@@ -74,6 +74,7 @@ public class BurningAnimal : MonoBehaviour, ICanBeSetOnFire
 			{
                 _burningAnimalMovement.burnState = BurningAnimalMovement.BurnState.dead;
                 _fire.Stop();
+                //Sound when dying here!
             }
 		}
     }
@@ -82,12 +83,14 @@ public class BurningAnimal : MonoBehaviour, ICanBeSetOnFire
 	{
         _burningAnimalMovement.burnState = BurningAnimalMovement.BurnState.extinguished;
         _fire.Stop();
+        //Sound when getting extinguished here!
 	}
 
     public void SetOnFire()
 	{
         _burningAnimalMovement.burnState = BurningAnimalMovement.BurnState.burning;
         _fire.Play();
+        //sound when being set on fire here!
     }
 
     public bool IsBurning()
