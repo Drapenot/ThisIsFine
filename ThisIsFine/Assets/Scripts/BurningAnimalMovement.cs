@@ -55,8 +55,16 @@ public class BurningAnimalMovement : MonoBehaviour
 		{
             if (_timer <= 0 || _navMeshAgent.remainingDistance <= 0.5f)
             {
+                if (!_navMeshAgent.isOnNavMesh)
+				{
+                    return;
+				}
+
                 var targetPosition = new Vector3(Random.Range(minPanicDistance, maxPanicDistance) * Mathf.Sign(Random.Range(-1, 1)), 0, Random.Range(minPanicDistance, maxPanicDistance) * Mathf.Sign(Random.Range(-1, 1))) + transform.position;
-                _navMeshAgent.SetDestination(targetPosition);
+                if(_navMeshAgent.isOnNavMesh)
+				{
+                    _navMeshAgent.SetDestination(targetPosition);
+				}
                 _timer = 4.5f;
             }
 
@@ -92,7 +100,11 @@ public class BurningAnimalMovement : MonoBehaviour
                 //_navMeshAgent.isStopped = true;
                 break;
             case (BurnState.dead):
-                _navMeshAgent.isStopped = true;
+                if(_navMeshAgent.isOnNavMesh)
+				{
+                    _navMeshAgent.isStopped = true;
+
+				}
                 _animator.SetBool("isDead", true);
                 _animator.SetBool(animatorMoveParameterName, false);
                 break;
