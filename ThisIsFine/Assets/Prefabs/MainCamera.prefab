@@ -214,6 +214,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5890182680218903575, guid: 21d15086bd1093d41a46f585c8f42545, type: 3}
+      propertyPath: EventReference.Path
+      value: event:/sfx_watersplash
+      objectReference: {fileID: 0}
+    - target: {fileID: 5890182680218903575, guid: 21d15086bd1093d41a46f585c8f42545, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5890182680218903575, guid: 21d15086bd1093d41a46f585c8f42545, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5890182680218903575, guid: 21d15086bd1093d41a46f585c8f42545, type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: 1963516603
+      objectReference: {fileID: 0}
+    - target: {fileID: 5890182680218903575, guid: 21d15086bd1093d41a46f585c8f42545, type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1287265045
+      objectReference: {fileID: 0}
+    - target: {fileID: 5890182680218903575, guid: 21d15086bd1093d41a46f585c8f42545, type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: 492538553
+      objectReference: {fileID: 0}
+    - target: {fileID: 5890182680218903575, guid: 21d15086bd1093d41a46f585c8f42545, type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: -1791976182
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21d15086bd1093d41a46f585c8f42545, type: 3}
 --- !u!4 &3621345656640491374 stripped

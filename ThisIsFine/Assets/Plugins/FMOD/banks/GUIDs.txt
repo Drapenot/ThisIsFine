@@ -1,7 +1,9 @@
 {6eb67a2e-7e73-413d-a192-780ae49c42e5} bank:/Master
 {f6ab5afa-0f08-0d7f-27db-f2f4156f447d} bank:/Master.strings
 {7f219056-4b75-4933-a43c-1eb686ab9014} bus:/
+{2954bf3b-850f-4acb-99cb-22ed10711cda} bus:/Music
 {9e2f073f-a6b7-464b-b158-87236d710724} bus:/Reverb
+{52195c3c-b8b8-4f94-b646-a10e831b6b52} bus:/SFX
 {875389fd-781e-426a-895e-213201f2928d} event:/Animals/sfx_cat_burning
 {44b704a9-1f91-49cb-8575-c0816b88f8ef} event:/Animals/sfx_cat_dead
 {f89a04cb-d195-4b61-9565-b0949f159a89} event:/Animals/sfx_cat_happy
@@ -12,3 +14,7 @@
 {0df4a4d6-8a79-4ad9-a55f-c9ec629ad281} event:/Other/sfx_flame
 {13644968-0480-46b3-8ecc-38eb138c1765} event:/TestSound
 {a8227a8d-ac23-4109-a167-1c5c974943b0} event:/World/sfx_fire
+{87963a67-d8b2-4bc4-84f2-b5f2c0b6de8a} event:/sfx_dead
+{20f67b0a-45d6-4048-8022-cfb05bd6eab8} event:/sfx_extinguish
+{7fbe9d42-c021-4dec-8cb3-91fc8659f467} event:/sfx_penguin_happy
+{7508e2bb-1b15-4cba-b98a-5b1d0a9d3095} event:/sfx_watersplash

@@ -1,265 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-8933129573204356783
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Animals/sfx_shark
-  m_EditorClassIdentifier: 
-  Path: event:/Animals/sfx_shark
-  Guid:
-    Data1: 2050392243
-    Data2: 1111427152
-    Data3: -1623527529
-    Data4: -523665956
-  Banks:
-  - {fileID: 3450812763104144086}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-8883769059544130788
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD/banks/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 637791405038310265
-  FileSizes:
-  - Name: 
-    Value: 1128
-  Exists: 1
---- !u!114 &-7109240819221666143
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Animals/sfx_croc
-  m_EditorClassIdentifier: 
-  Path: event:/Animals/sfx_croc
-  Guid:
-    Data1: -147142363
-    Data2: 1166260845
-    Data3: 802171558
-    Data4: -1595308428
-  Banks:
-  - {fileID: 3450812763104144086}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &-4238702057861115614
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Other/sfx_flame
-  m_EditorClassIdentifier: 
-  Path: event:/Other/sfx_flame
-  Guid:
-    Data1: 234136790
-    Data2: 1255770745
-    Data3: -322347099
-    Data4: -2116904350
-  Banks:
-  - {fileID: 3450812763104144086}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1600
---- !u!114 &-3204091804329230420
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Animals/sfx_cat_burning
-  m_EditorClassIdentifier: 
-  Path: event:/Animals/sfx_cat_burning
-  Guid:
-    Data1: -2024568323
-    Data2: 1114273822
-    Data3: 841047689
-    Data4: -1919749631
-  Banks:
-  - {fileID: 3450812763104144086}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 5000
---- !u!114 &-1378751908338483550
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Animals/sfx_cat_dead
-  m_EditorClassIdentifier: 
-  Path: event:/Animals/sfx_cat_dead
-  Guid:
-    Data1: 1152844969
-    Data2: 1238048657
-    Data3: -2118093435
-    Data4: -268924821
-  Banks:
-  - {fileID: 3450812763104144086}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 1565
---- !u!114 &11400000
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
-  m_Name: FMODStudioCache
-  m_EditorClassIdentifier: 
-  EditorBanks:
-  - {fileID: -8883769059544130788}
-  - {fileID: 3450812763104144086}
-  EditorEvents:
-  - {fileID: 192967855945237267}
-  - {fileID: -7109240819221666143}
-  - {fileID: 4163186669878841067}
-  - {fileID: 480941941682659965}
-  - {fileID: -1378751908338483550}
-  - {fileID: -8933129573204356783}
-  - {fileID: 5252530883376432108}
-  - {fileID: -4238702057861115614}
-  - {fileID: -3204091804329230420}
-  EditorParameters: []
-  MasterBanks:
-  - {fileID: 3450812763104144086}
-  StringsBanks:
-  - {fileID: -8883769059544130788}
-  cacheTime: 637791405038330279
-  cacheVersion: 10
---- !u!114 &192967855945237267
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/TestSound
-  m_EditorClassIdentifier: 
-  Path: event:/TestSound
-  Guid:
-    Data1: 325339496
-    Data2: 1186137216
-    Data3: -348599154
-    Data4: 1696042003
-  Banks:
-  - {fileID: 3450812763104144086}
-  IsStream: 0
-  Is3D: 0
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &480941941682659965
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/World/sfx_fire
-  m_EditorClassIdentifier: 
-  Path: event:/World/sfx_fire
-  Guid:
-    Data1: -1474135411
-    Data2: 1091152931
-    Data3: 1545365409
-    Data4: -1337767529
-  Banks:
-  - {fileID: 3450812763104144086}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 15
-  Length: 17000
---- !u!114 &3450812763104144086
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: Assets/Plugins/FMOD/banks/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 637791405038330279
-  FileSizes: []
-  Exists: 1
---- !u!114 &4163186669878841067
+--- !u!114 &-8001450468794490292
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -278,7 +19,7 @@ MonoBehaviour:
     Data3: -237245258
     Data4: 421142821
   Banks:
-  - {fileID: 3450812763104144086}
+  - {fileID: -34468224098593833}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -286,7 +27,386 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &5252530883376432108
+--- !u!114 &-6900910929634913865
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_extinguish
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_extinguish
+  Guid:
+    Data1: 553024266
+    Data2: 1078478294
+    Data3: -1328602496
+    Data4: -1192569253
+  Banks:
+  - {fileID: -34468224098593833}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 7.6
+  Length: 4000
+--- !u!114 &-4254364409550801134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/mus_main
+  m_EditorClassIdentifier: 
+  Path: event:/Music/mus_main
+  Guid:
+    Data1: 1547131933
+    Data2: 1077404939
+    Data3: -808736068
+    Data4: 947674507
+  Banks:
+  - {fileID: -34468224098593833}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 115000
+--- !u!114 &-3526724525313061942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_watersplash
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_watersplash
+  Guid:
+    Data1: 1963516603
+    Data2: 1287265045
+    Data3: 492538553
+    Data4: -1791976182
+  Banks:
+  - {fileID: -34468224098593833}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1331
+--- !u!114 &-2032812783854951054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animals/sfx_croc
+  m_EditorClassIdentifier: 
+  Path: event:/Animals/sfx_croc
+  Guid:
+    Data1: -147142363
+    Data2: 1166260845
+    Data3: 802171558
+    Data4: -1595308428
+  Banks:
+  - {fileID: -34468224098593833}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1899105807990331256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animals/sfx_shark
+  m_EditorClassIdentifier: 
+  Path: event:/Animals/sfx_shark
+  Guid:
+    Data1: 2050392243
+    Data2: 1111427152
+    Data3: -1623527529
+    Data4: -523665956
+  Banks:
+  - {fileID: -34468224098593833}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-1720176863762596312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_dead
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_dead
+  Guid:
+    Data1: -2020197785
+    Data2: 1271191730
+    Data3: -222956924
+    Data4: -1965115712
+  Banks:
+  - {fileID: -34468224098593833}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 7.6
+  Length: 4125
+--- !u!114 &-1699470023299889792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_penguin_happy
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_penguin_happy
+  Guid:
+    Data1: 2143198530
+    Data2: 1307361313
+    Data3: -57560180
+    Data4: 1744066950
+  Banks:
+  - {fileID: -34468224098593833}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 4000
+--- !u!114 &-34468224098593833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD/banks/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637791579381035005
+  FileSizes: []
+  Exists: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+  EditorBanks:
+  - {fileID: 9102272110652230394}
+  - {fileID: -34468224098593833}
+  EditorEvents:
+  - {fileID: -6900910929634913865}
+  - {fileID: -4254364409550801134}
+  - {fileID: -2032812783854951054}
+  - {fileID: -1699470023299889792}
+  - {fileID: -1720176863762596312}
+  - {fileID: 3731781045673551869}
+  - {fileID: -8001450468794490292}
+  - {fileID: 1159330454180981518}
+  - {fileID: 294839424245297723}
+  - {fileID: -1899105807990331256}
+  - {fileID: -3526724525313061942}
+  - {fileID: 5477672151854109926}
+  - {fileID: 1068972153198718117}
+  - {fileID: 2688472223234382331}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -34468224098593833}
+  StringsBanks:
+  - {fileID: 9102272110652230394}
+  cacheTime: 637791579381084890
+  cacheVersion: 10
+--- !u!114 &294839424245297723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animals/sfx_cat_dead
+  m_EditorClassIdentifier: 
+  Path: event:/Animals/sfx_cat_dead
+  Guid:
+    Data1: 1152844969
+    Data2: 1238048657
+    Data3: -2118093435
+    Data4: -268924821
+  Banks:
+  - {fileID: -34468224098593833}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1565
+--- !u!114 &1068972153198718117
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Other/sfx_flame
+  m_EditorClassIdentifier: 
+  Path: event:/Other/sfx_flame
+  Guid:
+    Data1: 234136790
+    Data2: 1255770745
+    Data3: -322347099
+    Data4: -2116904350
+  Banks:
+  - {fileID: -34468224098593833}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1600
+--- !u!114 &1159330454180981518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/World/sfx_fire
+  m_EditorClassIdentifier: 
+  Path: event:/World/sfx_fire
+  Guid:
+    Data1: -1474135411
+    Data2: 1091152931
+    Data3: 1545365409
+    Data4: -1337767529
+  Banks:
+  - {fileID: -34468224098593833}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 15
+  Length: 17000
+--- !u!114 &2688472223234382331
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animals/sfx_cat_burning
+  m_EditorClassIdentifier: 
+  Path: event:/Animals/sfx_cat_burning
+  Guid:
+    Data1: -2024568323
+    Data2: 1114273822
+    Data3: 841047689
+    Data4: -1919749631
+  Banks:
+  - {fileID: -34468224098593833}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 9.2
+  Length: 5000
+--- !u!114 &3731781045673551869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TestSound
+  m_EditorClassIdentifier: 
+  Path: event:/TestSound
+  Guid:
+    Data1: 325339496
+    Data2: 1186137216
+    Data3: -348599154
+    Data4: 1696042003
+  Banks:
+  - {fileID: -34468224098593833}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5477672151854109926
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -305,11 +425,31 @@ MonoBehaviour:
     Data3: -1800378987
     Data4: -1986390625
   Banks:
-  - {fileID: 3450812763104144086}
+  - {fileID: -34468224098593833}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1404
+  Length: 4000
+--- !u!114 &9102272110652230394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD/banks/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637791579381084890
+  FileSizes:
+  - Name: 
+    Value: 1420
+  Exists: 1
