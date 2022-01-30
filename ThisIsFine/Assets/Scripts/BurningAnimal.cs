@@ -117,6 +117,9 @@ public class BurningAnimal : MonoBehaviour, ICanBeSetOnFire
                 {
                     fire.Stop();
                 }
+
+                StatsTracker._animalsDied++;
+
                 //Sound when dying here!
                 var foundGameObject = GetSoundComponentWithName("dyingSFX");
                 foundGameObject.SetActive(true);
@@ -133,6 +136,7 @@ public class BurningAnimal : MonoBehaviour, ICanBeSetOnFire
         {
             fire.Stop();
         }
+
         //Sound when getting extinguished here!
         var foundGameObject = GetSoundComponentWithName("happySFX");
         foundGameObject.SetActive(true);

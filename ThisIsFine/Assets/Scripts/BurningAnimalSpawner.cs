@@ -45,9 +45,9 @@ public class BurningAnimalSpawner : MonoBehaviour
 
         var spawnPosition = transform.position;
 
-        var offset = new Vector3(Random.Range(0, transform.localScale.x / 2f), 0, Random.Range(0, transform.localScale.z / 2f));
+        var offset = new Vector3(Random.Range(0, transform.localScale.x * 5f), 0, Random.Range(0, transform.localScale.z * 5f));
         offset.x *= Mathf.Sign(Random.Range(-1, 1));
-        offset.y *= Mathf.Sign(Random.Range(-1, 1));
+        offset.z *= Mathf.Sign(Random.Range(-1, 1));
         spawnPosition += offset;
 
         GameObject.Instantiate(selectedAnimal, spawnPosition, Quaternion.identity);
