@@ -50,7 +50,8 @@ public class BurningAnimalSpawner : MonoBehaviour
         offset.z *= Mathf.Sign(Random.Range(-1, 1));
         spawnPosition += offset;
 
-        GameObject.Instantiate(selectedAnimal, spawnPosition, Quaternion.identity);
+        var instance = GameObject.Instantiate(selectedAnimal, spawnPosition, Quaternion.identity);
+        instance.layer = selectedAnimal.layer;
 
 	}
 }
