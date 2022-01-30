@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8933129573204356783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animals/sfx_shark
+  m_EditorClassIdentifier: 
+  Path: event:/Animals/sfx_shark
+  Guid:
+    Data1: 2050392243
+    Data2: 1111427152
+    Data3: -1623527529
+    Data4: -523665956
+  Banks:
+  - {fileID: 3450812763104144086}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &-8883769059544130788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15,11 +42,119 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/banks/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637790679468114987
+  lastModified: 637790987228396206
   FileSizes:
   - Name: 
-    Value: 810
+    Value: 1128
   Exists: 1
+--- !u!114 &-7109240819221666143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animals/sfx_croc
+  m_EditorClassIdentifier: 
+  Path: event:/Animals/sfx_croc
+  Guid:
+    Data1: -147142363
+    Data2: 1166260845
+    Data3: 802171558
+    Data4: -1595308428
+  Banks:
+  - {fileID: 3450812763104144086}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-4238702057861115614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Other/sfx_flame
+  m_EditorClassIdentifier: 
+  Path: event:/Other/sfx_flame
+  Guid:
+    Data1: 234136790
+    Data2: 1255770745
+    Data3: -322347099
+    Data4: -2116904350
+  Banks:
+  - {fileID: 3450812763104144086}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1600
+--- !u!114 &-3204091804329230420
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animals/sfx_cat_burning
+  m_EditorClassIdentifier: 
+  Path: event:/Animals/sfx_cat_burning
+  Guid:
+    Data1: -2024568323
+    Data2: 1114273822
+    Data3: 841047689
+    Data4: -1919749631
+  Banks:
+  - {fileID: 3450812763104144086}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5000
+--- !u!114 &-1378751908338483550
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animals/sfx_cat_dead
+  m_EditorClassIdentifier: 
+  Path: event:/Animals/sfx_cat_dead
+  Guid:
+    Data1: 1152844969
+    Data2: 1238048657
+    Data3: -2118093435
+    Data4: -268924821
+  Banks:
+  - {fileID: 3450812763104144086}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1565
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37,13 +172,20 @@ MonoBehaviour:
   - {fileID: 3450812763104144086}
   EditorEvents:
   - {fileID: 192967855945237267}
-  - {fileID: 2493485300418659697}
+  - {fileID: -7109240819221666143}
+  - {fileID: 4163186669878841067}
+  - {fileID: 480941941682659965}
+  - {fileID: -1378751908338483550}
+  - {fileID: -8933129573204356783}
+  - {fileID: 5252530883376432108}
+  - {fileID: -4238702057861115614}
+  - {fileID: -3204091804329230420}
   EditorParameters: []
   MasterBanks:
   - {fileID: 3450812763104144086}
   StringsBanks:
   - {fileID: -8883769059544130788}
-  cacheTime: 637790679468114987
+  cacheTime: 637790987228396206
   cacheVersion: 10
 --- !u!114 &192967855945237267
 MonoBehaviour:
@@ -72,7 +214,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &2493485300418659697
+--- !u!114 &480941941682659965
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -82,9 +224,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/sfx_fire
+  m_Name: event:/World/sfx_fire
   m_EditorClassIdentifier: 
-  Path: event:/sfx_fire
+  Path: event:/World/sfx_fire
   Guid:
     Data1: -1474135411
     Data2: 1091152931
@@ -114,6 +256,60 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/banks/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637790679468114987
+  lastModified: 637790987228336375
   FileSizes: []
   Exists: 1
+--- !u!114 &4163186669878841067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animals/sfx_chick
+  m_EditorClassIdentifier: 
+  Path: event:/Animals/sfx_chick
+  Guid:
+    Data1: 671325553
+    Data2: 1137204382
+    Data3: -237245258
+    Data4: 421142821
+  Banks:
+  - {fileID: 3450812763104144086}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &5252530883376432108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animals/sfx_cat_happy
+  m_EditorClassIdentifier: 
+  Path: event:/Animals/sfx_cat_happy
+  Guid:
+    Data1: -124123957
+    Data2: 1264701845
+    Data3: -1800378987
+    Data4: -1986390625
+  Banks:
+  - {fileID: 3450812763104144086}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1404
