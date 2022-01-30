@@ -1,33 +1,9 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+<<<<<<< Updated upstream
 --- !u!114 &-8710029749147078448
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/mus_main
-  m_EditorClassIdentifier: 
-  Path: event:/Music/mus_main
-  Guid:
-    Data1: 1547131933
-    Data2: 1077404939
-    Data3: -808736068
-    Data4: 947674507
-  Banks:
-  - {fileID: 6305245010705377096}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 115000
---- !u!114 &-8366480058945311948
+=======
+--- !u!114 &-5599915535023955437
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -46,7 +22,7 @@ MonoBehaviour:
     Data3: -1623527529
     Data4: -523665956
   Banks:
-  - {fileID: 6305245010705377096}
+  - {fileID: -223009478744656442}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -54,6 +30,176 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-3492315472243347256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TestSound
+  m_EditorClassIdentifier: 
+  Path: event:/TestSound
+  Guid:
+    Data1: 325339496
+    Data2: 1186137216
+    Data3: -348599154
+    Data4: 1696042003
+  Banks:
+  - {fileID: -223009478744656442}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-223009478744656442
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD/banks/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 637791581357216096
+  FileSizes: []
+  Exists: 1
+--- !u!114 &11400000
+>>>>>>> Stashed changes
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
+  m_Name: FMODStudioCache
+  m_EditorClassIdentifier: 
+<<<<<<< Updated upstream
+  Path: event:/Music/mus_main
+  Guid:
+    Data1: 1547131933
+    Data2: 1077404939
+    Data3: -808736068
+    Data4: 947674507
+  Banks:
+  - {fileID: 6305245010705377096}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 115000
+--- !u!114 &-8366480058945311948
+=======
+  EditorBanks:
+  - {fileID: 5219894277838328405}
+  - {fileID: -223009478744656442}
+  EditorEvents:
+  - {fileID: 4158783604340513699}
+  - {fileID: 1290071434431811362}
+  - {fileID: 585154183240074227}
+  - {fileID: 4425771747725191526}
+  - {fileID: 8977174062828635235}
+  - {fileID: -3492315472243347256}
+  - {fileID: 555176199571812826}
+  - {fileID: 3160715735502359950}
+  - {fileID: 2786966245432868334}
+  - {fileID: -5599915535023955437}
+  - {fileID: 226305003159564051}
+  - {fileID: 6477931389000972280}
+  - {fileID: 3858235908954421805}
+  - {fileID: 3448853038772253998}
+  EditorParameters: []
+  MasterBanks:
+  - {fileID: -223009478744656442}
+  StringsBanks:
+  - {fileID: 5219894277838328405}
+  cacheTime: 637791581357216096
+  cacheVersion: 10
+--- !u!114 &226305003159564051
+>>>>>>> Stashed changes
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+<<<<<<< Updated upstream
+  m_Name: event:/Animals/sfx_shark
+  m_EditorClassIdentifier: 
+  Path: event:/Animals/sfx_shark
+  Guid:
+    Data1: 2050392243
+    Data2: 1111427152
+    Data3: -1623527529
+    Data4: -523665956
+  Banks:
+  - {fileID: 6305245010705377096}
+=======
+  m_Name: event:/sfx_watersplash
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_watersplash
+  Guid:
+    Data1: 1963516603
+    Data2: 1287265045
+    Data3: 492538553
+    Data4: -1791976182
+  Banks:
+  - {fileID: -223009478744656442}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1331
+--- !u!114 &555176199571812826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Animals/sfx_chick
+  m_EditorClassIdentifier: 
+  Path: event:/Animals/sfx_chick
+  Guid:
+    Data1: 671325553
+    Data2: 1137204382
+    Data3: -237245258
+    Data4: 421142821
+  Banks:
+  - {fileID: -223009478744656442}
+>>>>>>> Stashed changes
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+<<<<<<< Updated upstream
 --- !u!114 &-799937750209851064
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82,6 +228,9 @@ MonoBehaviour:
   MaxDistance: 9.2
   Length: 5000
 --- !u!114 &-396541668007638567
+=======
+--- !u!114 &585154183240074227
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -100,7 +249,11 @@ MonoBehaviour:
     Data3: 802171558
     Data4: -1595308428
   Banks:
+<<<<<<< Updated upstream
   - {fileID: 6305245010705377096}
+=======
+  - {fileID: -223009478744656442}
+>>>>>>> Stashed changes
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -108,7 +261,11 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+<<<<<<< Updated upstream
 --- !u!114 &11400000
+=======
+--- !u!114 &1290071434431811362
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -117,6 +274,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
+<<<<<<< Updated upstream
   m_Script: {fileID: 11500000, guid: d32cf7c32a3ed8347bac48ef5ed56d82, type: 3}
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
@@ -228,6 +386,27 @@ MonoBehaviour:
   MaxDistance: 20
   Length: 1565
 --- !u!114 &3303631153411490670
+=======
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/mus_main
+  m_EditorClassIdentifier: 
+  Path: event:/Music/mus_main
+  Guid:
+    Data1: 1547131933
+    Data2: 1077404939
+    Data3: -808736068
+    Data4: 947674507
+  Banks:
+  - {fileID: -223009478744656442}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 115000
+--- !u!114 &2786966245432868334
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -237,24 +416,33 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/sfx_penguin_happy
+  m_Name: event:/Animals/sfx_cat_dead
   m_EditorClassIdentifier: 
-  Path: event:/sfx_penguin_happy
+  Path: event:/Animals/sfx_cat_dead
   Guid:
-    Data1: 2143198530
-    Data2: 1307361313
-    Data3: -57560180
-    Data4: 1744066950
+    Data1: 1152844969
+    Data2: 1238048657
+    Data3: -2118093435
+    Data4: -268924821
   Banks:
+<<<<<<< Updated upstream
   - {fileID: 6305245010705377096}
+=======
+  - {fileID: -223009478744656442}
+>>>>>>> Stashed changes
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
+<<<<<<< Updated upstream
   Length: 4000
 --- !u!114 &3773088272860386709
+=======
+  Length: 1565
+--- !u!114 &3160715735502359950
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -264,6 +452,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+<<<<<<< Updated upstream
   m_Name: event:/sfx_extinguish
   m_EditorClassIdentifier: 
   Path: event:/sfx_extinguish
@@ -274,14 +463,32 @@ MonoBehaviour:
     Data4: -1192569253
   Banks:
   - {fileID: 6305245010705377096}
+=======
+  m_Name: event:/World/sfx_fire
+  m_EditorClassIdentifier: 
+  Path: event:/World/sfx_fire
+  Guid:
+    Data1: -1474135411
+    Data2: 1091152931
+    Data3: 1545365409
+    Data4: -1337767529
+  Banks:
+  - {fileID: -223009478744656442}
+>>>>>>> Stashed changes
   IsStream: 0
   Is3D: 1
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
+<<<<<<< Updated upstream
   MaxDistance: 7.6
   Length: 4000
 --- !u!114 &4768858357671164323
+=======
+  MaxDistance: 15
+  Length: 17000
+--- !u!114 &3448853038772253998
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -291,6 +498,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+<<<<<<< Updated upstream
   m_Name: event:/Animals/sfx_cat_happy
   m_EditorClassIdentifier: 
   Path: event:/Animals/sfx_cat_happy
@@ -301,14 +509,31 @@ MonoBehaviour:
     Data4: -1986390625
   Banks:
   - {fileID: 6305245010705377096}
+=======
+  m_Name: event:/Animals/sfx_cat_burning
+  m_EditorClassIdentifier: 
+  Path: event:/Animals/sfx_cat_burning
+  Guid:
+    Data1: -2024568323
+    Data2: 1114273822
+    Data3: 841047689
+    Data4: -1919749631
+  Banks:
+  - {fileID: -223009478744656442}
+>>>>>>> Stashed changes
   IsStream: 0
   Is3D: 1
-  IsOneShot: 1
+  IsOneShot: 0
   Parameters: []
   MinDistance: 1
+<<<<<<< Updated upstream
   MaxDistance: 20
   Length: 4000
 --- !u!114 &5539143976314934617
+=======
+  MaxDistance: 9.2
+  Length: 5000
+--- !u!114 &3858235908954421805
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -317,6 +542,35 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Other/sfx_flame
+  m_EditorClassIdentifier: 
+  Path: event:/Other/sfx_flame
+  Guid:
+    Data1: 234136790
+    Data2: 1255770745
+    Data3: -322347099
+    Data4: -2116904350
+  Banks:
+  - {fileID: -223009478744656442}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1600
+--- !u!114 &4158783604340513699
+>>>>>>> Stashed changes
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+<<<<<<< Updated upstream
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
   m_Name: bank:/Master.strings.bank
   m_EditorClassIdentifier: 
@@ -340,24 +594,38 @@ MonoBehaviour:
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
   m_Name: event:/World/sfx_fire
+=======
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_extinguish
+>>>>>>> Stashed changes
   m_EditorClassIdentifier: 
-  Path: event:/World/sfx_fire
+  Path: event:/sfx_extinguish
   Guid:
-    Data1: -1474135411
-    Data2: 1091152931
-    Data3: 1545365409
-    Data4: -1337767529
+    Data1: 553024266
+    Data2: 1078478294
+    Data3: -1328602496
+    Data4: -1192569253
   Banks:
+<<<<<<< Updated upstream
   - {fileID: 6305245010705377096}
+=======
+  - {fileID: -223009478744656442}
+>>>>>>> Stashed changes
   IsStream: 0
   Is3D: 1
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
+<<<<<<< Updated upstream
   MaxDistance: 15
   MaxDistance: 20
   Length: 17000
 --- !u!114 &5870512900701315213
+=======
+  MaxDistance: 7.6
+  Length: 4000
+--- !u!114 &4425771747725191526
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -367,6 +635,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+<<<<<<< Updated upstream
   m_Name: event:/sfx_dead
   m_EditorClassIdentifier: 
   Path: event:/sfx_dead
@@ -377,14 +646,32 @@ MonoBehaviour:
     Data4: -1965115712
   Banks:
   - {fileID: 6305245010705377096}
+=======
+  m_Name: event:/sfx_penguin_happy
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_penguin_happy
+  Guid:
+    Data1: 2143198530
+    Data2: 1307361313
+    Data3: -57560180
+    Data4: 1744066950
+  Banks:
+  - {fileID: -223009478744656442}
+>>>>>>> Stashed changes
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
+<<<<<<< Updated upstream
   MaxDistance: 7.6
   Length: 4125
 --- !u!114 &6305245010705377096
+=======
+  MaxDistance: 20
+  Length: 4000
+--- !u!114 &5219894277838328405
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -394,6 +681,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+<<<<<<< Updated upstream
   m_Name: bank:/Master.bank
   m_EditorClassIdentifier: 
   Path: Assets/Plugins/FMOD/banks/Desktop/Master.bank
@@ -404,6 +692,19 @@ MonoBehaviour:
   FileSizes: []
   Exists: 1
 --- !u!114 &7675423387526390867
+=======
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/Plugins/FMOD/banks/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 637791581357136009
+  FileSizes:
+  - Name: 
+    Value: 1420
+  Exists: 1
+--- !u!114 &6477931389000972280
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -422,15 +723,24 @@ MonoBehaviour:
     Data3: -322347099
     Data4: -2116904350
   Banks:
+<<<<<<< Updated upstream
   - {fileID: 6305245010705377096}
+=======
+  - {fileID: -223009478744656442}
+>>>>>>> Stashed changes
   IsStream: 0
   Is3D: 1
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
+<<<<<<< Updated upstream
   Length: 1600
 --- !u!114 &9136353148254089633
+=======
+  Length: 4000
+--- !u!114 &8977174062828635235
+>>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -440,6 +750,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+<<<<<<< Updated upstream
   m_Name: event:/TestSound
   m_EditorClassIdentifier: 
   Path: event:/TestSound
@@ -450,10 +761,27 @@ MonoBehaviour:
     Data4: 1696042003
   Banks:
   - {fileID: 6305245010705377096}
+=======
+  m_Name: event:/sfx_dead
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_dead
+  Guid:
+    Data1: -2020197785
+    Data2: 1271191730
+    Data3: -222956924
+    Data4: -1965115712
+  Banks:
+  - {fileID: -223009478744656442}
+>>>>>>> Stashed changes
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
   Parameters: []
   MinDistance: 1
+<<<<<<< Updated upstream
   MaxDistance: 20
   Length: 0
+=======
+  MaxDistance: 7.6
+  Length: 4125
+>>>>>>> Stashed changes
