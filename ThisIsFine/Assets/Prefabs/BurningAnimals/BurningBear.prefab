@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1565826481722161319}
   - component: {fileID: 4190556027537567483}
   - component: {fileID: 4190556027537567482}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BurningBear
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -84,6 +84,7 @@ MonoBehaviour:
   burnDPS: 1
   _fires: []
   _burnChance: 0.5
+  _animalSoundPrefab: {fileID: 0}
 --- !u!135 &4190556027537567482
 SphereCollider:
   m_ObjectHideFlags: 0

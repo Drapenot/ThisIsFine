@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3888072465966754663}
   - component: {fileID: 3888072465966754651}
   - component: {fileID: 3888072465966754650}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BurningCatOrange
   m_TagString: Untagged
   m_Icon: {fileID: 0}

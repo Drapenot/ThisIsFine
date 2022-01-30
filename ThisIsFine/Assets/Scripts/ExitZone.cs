@@ -15,7 +15,7 @@ public class ExitZone : MonoBehaviour
 		var burnable = other.GetComponent<ICanBeSetOnFire>();
 		if(burnable != null && !burnable.IsBurning() && burnable is BurningAnimal)
 		{
-			Destroy((burnable as MonoBehaviour).gameObject);
+			Destroy((burnable as BurningAnimal).gameObject);
 			StatsTracker._animalsSurvived++;
 		}
 	}

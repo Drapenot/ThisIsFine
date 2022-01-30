@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4920303837832505038}
   - component: {fileID: 4920303837832505074}
   - component: {fileID: 4920303837832505075}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BurningBuffalo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -82,6 +82,7 @@ MonoBehaviour:
   burnDPS: 1
   _fires: []
   _burnChance: 0.5
+  _animalSoundPrefab: {fileID: 0}
 --- !u!135 &4920303837832505075
 SphereCollider:
   m_ObjectHideFlags: 0
