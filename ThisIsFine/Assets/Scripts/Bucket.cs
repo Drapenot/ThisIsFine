@@ -16,6 +16,8 @@ public class Bucket : MonoBehaviour
     private Camera mainCamera;
     public float distanceInFrontOfCamera = 0.9f;
 
+    public GameObject splashSFX;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -45,6 +47,7 @@ public class Bucket : MonoBehaviour
             var instance = Instantiate(bullet, transform.position + mainCamera.transform.forward * 1.5f, transform.rotation);
             instance.GetComponent<Rigidbody>().AddForce(mainCamera.transform.forward * 800f);
             Destroy(instance, 0.8f);
+            splashSFX.SetActive(true);
         }
 
         //transform.position = mainCamera.transform.position + mainCamera.transform.forward * distanceInFrontOfCamera;
