@@ -84,6 +84,7 @@ MonoBehaviour:
   burnDPS: 1
   _fires: []
   _burnChance: 0.5
+  _animalSoundPrefab: {fileID: 5556532598245335918, guid: 6202542dde38f8448b5cfd8b8a91a092, type: 3}
 --- !u!135 &696483022990738387
 SphereCollider:
   m_ObjectHideFlags: 0
