@@ -151,6 +151,8 @@ public class BurningAnimal : MonoBehaviour, ICanBeSetOnFire
         //Sound when getting extinguished here!
         var foundGameObject = GetSoundComponentWithName("happySFX");
         foundGameObject.SetActive(true);
+        var burningSFX = GetSoundComponentWithName("burningSFX");
+        burningSFX.SetActive(false);
     }
 
     public void SetOnFire()
