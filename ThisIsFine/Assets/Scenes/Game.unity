@@ -10019,6 +10019,34 @@ PrefabInstance:
       propertyPath: waterParticle
       value: 
       objectReference: {fileID: 722520479}
+    - target: {fileID: 5865502309440727914, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
+      propertyPath: EventReference.Path
+      value: event:/sfx_watersplash
+      objectReference: {fileID: 0}
+    - target: {fileID: 5865502309440727914, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
+      propertyPath: OverrideMaxDistance
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 5865502309440727914, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
+      propertyPath: OverrideMinDistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5865502309440727914, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
+      propertyPath: EventReference.Guid.Data1
+      value: 1963516603
+      objectReference: {fileID: 0}
+    - target: {fileID: 5865502309440727914, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
+      propertyPath: EventReference.Guid.Data2
+      value: 1287265045
+      objectReference: {fileID: 0}
+    - target: {fileID: 5865502309440727914, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
+      propertyPath: EventReference.Guid.Data3
+      value: 492538553
+      objectReference: {fileID: 0}
+    - target: {fileID: 5865502309440727914, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
+      propertyPath: EventReference.Guid.Data4
+      value: -1791976182
+      objectReference: {fileID: 0}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_RootOrder
       value: 4

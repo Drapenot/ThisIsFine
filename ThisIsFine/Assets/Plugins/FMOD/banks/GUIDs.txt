@@ -12,3 +12,7 @@
 {0df4a4d6-8a79-4ad9-a55f-c9ec629ad281} event:/Other/sfx_flame
 {13644968-0480-46b3-8ecc-38eb138c1765} event:/TestSound
 {a8227a8d-ac23-4109-a167-1c5c974943b0} event:/World/sfx_fire
+{87963a67-d8b2-4bc4-84f2-b5f2c0b6de8a} event:/sfx_dead
+{20f67b0a-45d6-4048-8022-cfb05bd6eab8} event:/sfx_extinguish
+{7fbe9d42-c021-4dec-8cb3-91fc8659f467} event:/sfx_penguin_happy
+{7508e2bb-1b15-4cba-b98a-5b1d0a9d3095} event:/sfx_watersplash
