@@ -32,6 +32,9 @@ public class Bucket : MonoBehaviour
 
         if (Input.GetKey(KeyCode.Escape))
         {
+            StatsTracker._animalsDied = 0;
+            StatsTracker._animalsSurvived = 0;
+            StatsTracker._totalTime = 0;
             SceneManager.LoadScene(0);
         }
 

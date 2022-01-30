@@ -128,7 +128,7 @@ public class BurningAnimal : MonoBehaviour, ICanBeSetOnFire
                 var foundGameObject = GetSoundComponentWithName("dyingSFX");
                 foundGameObject.SetActive(true);
                 var burningSFX = GetSoundComponentWithName("burningSFX");
-                burningSFX.SetActive(true);
+                burningSFX.SetActive(false);
             }
 		}
 
