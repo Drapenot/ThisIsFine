@@ -1,7 +1,9 @@
 {6eb67a2e-7e73-413d-a192-780ae49c42e5} bank:/Master
 {f6ab5afa-0f08-0d7f-27db-f2f4156f447d} bank:/Master.strings
 {7f219056-4b75-4933-a43c-1eb686ab9014} bus:/
+{2954bf3b-850f-4acb-99cb-22ed10711cda} bus:/Music
 {9e2f073f-a6b7-464b-b158-87236d710724} bus:/Reverb
+{52195c3c-b8b8-4f94-b646-a10e831b6b52} bus:/SFX
 {875389fd-781e-426a-895e-213201f2928d} event:/Animals/sfx_cat_burning
 {44b704a9-1f91-49cb-8575-c0816b88f8ef} event:/Animals/sfx_cat_dead
 {f89a04cb-d195-4b61-9565-b0949f159a89} event:/Animals/sfx_cat_happy
