@@ -23,9 +23,18 @@ public class WaterSplash : MonoBehaviour
 
         var canBeSetOnFire = other.GetComponent<ICanBeSetOnFire>();
 
-        if(canBeSetOnFire != null && canBeSetOnFire.IsBurning()) 
+        if(canBeSetOnFire == null)
+		{
+            canBeSetOnFire = other.GetComponentInParent<ICanBeSetOnFire>();
+		}
+        if (canBeSetOnFire == null)
+        {
+            canBeSetOnFire = other.GetComponentInChildren<ICanBeSetOnFire>();
+        }
+
+        if (canBeSetOnFire != null && canBeSetOnFire.IsBurning()) 
         {   
-        canBeSetOnFire.Extinguish();
+            canBeSetOnFire.Extinguish();
         }
     }
 

@@ -5,20 +5,21 @@ using UnityEngine;
 public class Bucket : MonoBehaviour
 {
 
-public bool insideWaterTrigger = false;
-public bool bucketEmpty = true;
+    public bool insideWaterTrigger = false;
+    public bool bucketEmpty = true;
 
-public GameObject waterPlane;
-public GameObject waterParticle;
-public GameObject bullet;
+    public GameObject waterPlane;
+    public GameObject waterParticle;
+    public GameObject bullet;
 
 
-
+    private Camera mainCamera;
+    public float distanceInFrontOfCamera = 0.9f;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        mainCamera = Camera.main;
     }
 
 
@@ -41,10 +42,13 @@ public GameObject bullet;
             print("bucket empty");
             waterPlane.SetActive(false);
             waterParticle.GetComponent<ParticleSystem>().Play();
-            var instance = Instantiate(bullet, transform.position + transform.forward * 1.5f, transform.rotation);
-            instance.GetComponent<Rigidbody>().AddForce(transform.forward * 200f);
+            var instance = Instantiate(bullet, transform.position + mainCamera.transform.forward * 1.5f, transform.rotation);
+            instance.GetComponent<Rigidbody>().AddForce(mainCamera.transform.forward * 200f);
             Destroy(instance, 0.8f);
         }
+
+        //transform.position = mainCamera.transform.position + mainCamera.transform.forward * distanceInFrontOfCamera;
+        transform.eulerAngles = new Vector3(0, mainCamera.transform.eulerAngles.y, 0);
     
     }
 

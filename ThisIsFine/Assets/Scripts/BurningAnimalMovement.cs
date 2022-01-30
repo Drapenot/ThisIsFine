@@ -64,6 +64,10 @@ public class BurningAnimalMovement : MonoBehaviour
 
             FaceDirection(_navMeshAgent.destination);
         }
+        if(_burnState == BurnState.extinguished)
+		{
+            FaceDirection(_navMeshAgent.destination);
+        }
 
 
 
@@ -84,7 +88,8 @@ public class BurningAnimalMovement : MonoBehaviour
                 break;
             case (BurnState.extinguished):
                 _animator.SetBool(animatorMoveParameterName, false);
-                _navMeshAgent.isStopped = true;
+                _navMeshAgent.SetDestination(ExitZones.Instance.GetClosestExitZone(transform.position).GetPosition());
+                //_navMeshAgent.isStopped = true;
                 break;
             case (BurnState.dead):
                 _navMeshAgent.isStopped = true;
