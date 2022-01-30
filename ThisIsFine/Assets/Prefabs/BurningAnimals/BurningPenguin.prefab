@@ -79,9 +79,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startHP: 20
   burnDPS: 1
+  despawnSeconds: 15
   _fires: []
   _burnChance: 0.5
-  _animalSoundPrefab: {fileID: 5556532598245335918, guid: 6202542dde38f8448b5cfd8b8a91a092, type: 3}
+  _animalSoundPrefab: {fileID: 2949499780047170386, guid: 7382141dee33087418663fe1e0f8557a, type: 3}
 --- !u!135 &3553771755429602484
 SphereCollider:
   m_ObjectHideFlags: 0
