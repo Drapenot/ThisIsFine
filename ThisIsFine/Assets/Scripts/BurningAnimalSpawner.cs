@@ -36,7 +36,7 @@ public class BurningAnimalSpawner : MonoBehaviour
 		{
             SpawnRandomAnimal();
             _timeSinceLastSpawn = 0;
-            _timeToNextSpawn = Mathf.Max(_timeToNextSpawn * multiplierPerSpawn, 0.1f);
+            _timeToNextSpawn = Mathf.Max(_timeToNextSpawn * multiplierPerSpawn, 1.5f);
 		}
     }
 
