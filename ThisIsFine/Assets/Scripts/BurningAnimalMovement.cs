@@ -99,7 +99,10 @@ public class BurningAnimalMovement : MonoBehaviour
 				{
                     _animator.SetBool(animatorMoveParameterName, true);
                 }                
-                _navMeshAgent.SetDestination(ExitZones.Instance.GetClosestExitZone(transform.position).GetPosition());
+                if(_navMeshAgent != null && _navMeshAgent.isOnNavMesh)
+				{
+                    _navMeshAgent.SetDestination(ExitZones.Instance.GetClosestExitZone(transform.position).GetPosition());
+				}
                 //_navMeshAgent.isStopped = true;
                 break;
             case (BurnState.dead):
@@ -108,8 +111,12 @@ public class BurningAnimalMovement : MonoBehaviour
                     _navMeshAgent.isStopped = true;
 
 				}
-                _animator.SetBool("isDead", true);
-                _animator.SetBool(animatorMoveParameterName, false);
+                if(_animator != null)
+				{
+                    _animator.SetBool("isDead", true);
+                    _animator.SetBool(animatorMoveParameterName, false);
+                }
+
                 break;
 
             default:
