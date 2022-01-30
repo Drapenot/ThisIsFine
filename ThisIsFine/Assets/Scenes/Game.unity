@@ -123,6 +123,11 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 23800000, guid: ec8b16259df28ca40acb340abb18acd9, type: 2}
+--- !u!1 &294445 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8689505086892841361, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
+  m_PrefabInstance: {fileID: 60889539378096550}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &23317118 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4827143267441304, guid: 45a2482876d3a49458bb3f38b77cb765, type: 3}
@@ -3662,6 +3667,11 @@ BoxCollider:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4331832858961822, guid: 461adae6d8ea6d74fac73e4bd90066cb, type: 3}
   m_PrefabInstance: {fileID: 242408478}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &722520479 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3624040017537942621, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
+  m_PrefabInstance: {fileID: 60889539378096550}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &725088743 stripped
 Transform:
@@ -10001,6 +10011,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3625360492431805993, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
+      propertyPath: waterPlane
+      value: 
+      objectReference: {fileID: 294445}
+    - target: {fileID: 3625360492431805993, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
+      propertyPath: waterParticle
+      value: 
+      objectReference: {fileID: 722520479}
     - target: {fileID: 9005220659476430818, guid: 2d3a85ecde41a8246a79669975912b74, type: 3}
       propertyPath: m_RootOrder
       value: 4
