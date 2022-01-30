@@ -118,8 +118,10 @@ public class BurningAnimal : MonoBehaviour, ICanBeSetOnFire
                     fire.Stop();
                 }
                 //Sound when dying here!
-                var foundGameObject = GetSoundComponentWithName("dying");
+                var foundGameObject = GetSoundComponentWithName("dyingSFX");
                 foundGameObject.SetActive(true);
+                var burningSFX = GetSoundComponentWithName("burningSFX");
+                burningSFX.SetActive(true);
             }
 		}
     }
@@ -132,6 +134,8 @@ public class BurningAnimal : MonoBehaviour, ICanBeSetOnFire
             fire.Stop();
         }
         //Sound when getting extinguished here!
+        var foundGameObject = GetSoundComponentWithName("happySFX");
+        foundGameObject.SetActive(true);
     }
 
     public void SetOnFire()
@@ -142,6 +146,8 @@ public class BurningAnimal : MonoBehaviour, ICanBeSetOnFire
             fire.Play();
         }
         //sound when being set on fire here!
+        var foundGameObject = GetSoundComponentWithName("burningSFX");
+        foundGameObject.SetActive(true);
     }
 
     public bool IsBurning()

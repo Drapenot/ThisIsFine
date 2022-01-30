@@ -82,7 +82,6 @@ MonoBehaviour:
   _fires: []
   _burnChance: 0.5
   _animalSoundPrefab: {fileID: 5556532598245335918, guid: 6202542dde38f8448b5cfd8b8a91a092, type: 3}
-  eventNames: []
 --- !u!135 &4006719074537034950
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -161,6 +160,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 114210507595430992, guid: 9aa610f370cd8454a90934998b7440ed, type: 3}
+    - {fileID: 82361486870045612, guid: 9aa610f370cd8454a90934998b7440ed, type: 3}
+    - {fileID: 114306267886315038, guid: 9aa610f370cd8454a90934998b7440ed, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9aa610f370cd8454a90934998b7440ed, type: 3}
 --- !u!1 &5329234849771898428 stripped
 GameObject:

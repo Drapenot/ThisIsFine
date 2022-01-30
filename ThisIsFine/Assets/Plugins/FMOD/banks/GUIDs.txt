@@ -2,5 +2,12 @@
 {f6ab5afa-0f08-0d7f-27db-f2f4156f447d} bank:/Master.strings
 {7f219056-4b75-4933-a43c-1eb686ab9014} bus:/
 {9e2f073f-a6b7-464b-b158-87236d710724} bus:/Reverb
+{875389fd-781e-426a-895e-213201f2928d} event:/Animals/sfx_cat_burning
+{44b704a9-1f91-49cb-8575-c0816b88f8ef} event:/Animals/sfx_cat_dead
+{f89a04cb-d195-4b61-9565-b0949f159a89} event:/Animals/sfx_cat_happy
+{28039d71-5c9e-43c8-b6ec-dbf125211a19} event:/Animals/sfx_chick
+{f73ac925-ba6d-4583-a62a-d02f7486e9a0} event:/Animals/sfx_croc
+{7a3680b3-0850-423f-97ef-3a9fdc7dc9e0} event:/Animals/sfx_shark
+{0df4a4d6-8a79-4ad9-a55f-c9ec629ad281} event:/Other/sfx_flame
 {13644968-0480-46b3-8ecc-38eb138c1765} event:/TestSound
-{a8227a8d-ac23-4109-a167-1c5c974943b0} event:/sfx_fire
+{a8227a8d-ac23-4109-a167-1c5c974943b0} event:/World/sfx_fire
