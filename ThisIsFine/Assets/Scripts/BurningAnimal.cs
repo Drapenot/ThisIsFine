@@ -103,6 +103,7 @@ public class BurningAnimal : MonoBehaviour, ICanBeSetOnFire
     // Update is called once per frame
     void Update()
     {
+        _animalSoundInstance.transform.position = _navMeshAgent.transform.position;
         foreach(var fireParent in _fireParents)
 		{
             fireParent.rotation = _navMeshAgent.transform.rotation;

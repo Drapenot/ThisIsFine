@@ -52,7 +52,7 @@ MonoBehaviour:
       Data4: -2116904350
     Path: event:/Other/sfx_flame
   Event: 
-  PlayEvent: 1
+  PlayEvent: 11
   StopEvent: 12
   AllowFadeout: 1
   TriggerOnce: 0
@@ -85,7 +85,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5556532598245335918}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.5845225, y: 0.3840313, z: -1.7140838}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 5864439903563237815}
