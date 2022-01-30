@@ -42,10 +42,10 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/banks/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637791536377292639
+  lastModified: 637791405038310265
   FileSizes:
   - Name: 
-    Value: 1172
+    Value: 1128
   Exists: 1
 --- !u!114 &-7109240819221666143
 MonoBehaviour:
@@ -126,7 +126,7 @@ MonoBehaviour:
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
-  MaxDistance: 9.2
+  MaxDistance: 20
   Length: 5000
 --- !u!114 &-1378751908338483550
 MonoBehaviour:
@@ -155,33 +155,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1565
---- !u!114 &-498957199459220709
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/mus_main
-  m_EditorClassIdentifier: 
-  Path: event:/Music/mus_main
-  Guid:
-    Data1: 1547131933
-    Data2: 1077404939
-    Data3: -808736068
-    Data4: 947674507
-  Banks:
-  - {fileID: 3450812763104144086}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 115000
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -207,13 +180,12 @@ MonoBehaviour:
   - {fileID: 5252530883376432108}
   - {fileID: -4238702057861115614}
   - {fileID: -3204091804329230420}
-  - {fileID: -498957199459220709}
   EditorParameters: []
   MasterBanks:
   - {fileID: 3450812763104144086}
   StringsBanks:
   - {fileID: -8883769059544130788}
-  cacheTime: 637791536377292639
+  cacheTime: 637791405038330279
   cacheVersion: 10
 --- !u!114 &192967855945237267
 MonoBehaviour:
@@ -262,7 +234,7 @@ MonoBehaviour:
     Data4: -1337767529
   Banks:
   - {fileID: 3450812763104144086}
-  IsStream: 0
+  IsStream: 1
   Is3D: 1
   IsOneShot: 0
   Parameters: []
@@ -284,7 +256,7 @@ MonoBehaviour:
   Path: Assets/Plugins/FMOD/banks/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637791536377252748
+  lastModified: 637791405038330279
   FileSizes: []
   Exists: 1
 --- !u!114 &4163186669878841067
