@@ -2249,6 +2249,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3810726909987104262, guid: f4f4036a3490615428e164f6146f73a3, type: 3}
+      propertyPath: animalList.Array.data[21].cuteness
+      value: 10
+      objectReference: {fileID: 0}
     - target: {fileID: 3810726909987104263, guid: f4f4036a3490615428e164f6146f73a3, type: 3}
       propertyPath: m_Name
       value: Spawner
@@ -10298,22 +10302,6 @@ PrefabInstance:
     - target: {fileID: 4962362156864271943, guid: e86da5ab8e66569489ba78ad315758f9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4962362156895844434, guid: e86da5ab8e66569489ba78ad315758f9, type: 3}
-      propertyPath: m_UseGravity
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4962362156895844434, guid: e86da5ab8e66569489ba78ad315758f9, type: 3}
-      propertyPath: m_Constraints
-      value: 126
-      objectReference: {fileID: 0}
-    - target: {fileID: 4962362156902888494, guid: e86da5ab8e66569489ba78ad315758f9, type: 3}
-      propertyPath: m_UseGravity
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4962362156902888494, guid: e86da5ab8e66569489ba78ad315758f9, type: 3}
-      propertyPath: m_Constraints
-      value: 126
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e86da5ab8e66569489ba78ad315758f9, type: 3}

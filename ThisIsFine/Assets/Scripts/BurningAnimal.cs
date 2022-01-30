@@ -11,6 +11,8 @@ public class BurningAnimal : MonoBehaviour, ICanBeSetOnFire
     private BurningAnimalMovement _burningAnimalMovement;
     private bool _isFalling = true;
 
+    public float despawnSeconds = 15;
+
     public ParticleSystem[] _fires;
     private List<Transform> _fireParents = new List<Transform>();
 
@@ -88,6 +90,7 @@ public class BurningAnimal : MonoBehaviour, ICanBeSetOnFire
             foreach (var child in fireParent.transform.GetComponentsInChildren<ParticleSystem>())
             {
                 child.transform.localPosition = parentOffset;
+                child.transform.eulerAngles = Vector3.zero;
             }
             fireParent.localPosition = Vector3.zero;
         }
@@ -119,6 +122,7 @@ public class BurningAnimal : MonoBehaviour, ICanBeSetOnFire
                 }
 
                 StatsTracker._animalsDied++;
+                StartCoroutine(DeathTimer());
 
                 //Sound when dying here!
                 var foundGameObject = GetSoundComponentWithName("dyingSFX");
@@ -126,6 +130,11 @@ public class BurningAnimal : MonoBehaviour, ICanBeSetOnFire
                 var burningSFX = GetSoundComponentWithName("burningSFX");
                 burningSFX.SetActive(true);
             }
+		}
+
+        if(transform.position.y < -30)
+		{
+            Destroy(gameObject);
 		}
     }
 
@@ -206,5 +215,11 @@ public class BurningAnimal : MonoBehaviour, ICanBeSetOnFire
 
         Debug.LogError("Sound Object with name " + name + " could not be found");
         return null;
+	}
+
+    IEnumerator DeathTimer()
+	{
+        yield return new WaitForSeconds(despawnSeconds);
+        Destroy(gameObject);
 	}
 }
