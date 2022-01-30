@@ -12,17 +12,33 @@ public class ExitZone : MonoBehaviour
 	}
 	private void OnTriggerEnter(Collider other)
 	{
+		bool isInParent = false;
+		bool isInChild = false;
 		var burnable = other.GetComponent<ICanBeSetOnFire>();
-		if(burnable != null && !burnable.IsBurning() && burnable is BurningAnimal)
+		if (burnable == null)
 		{
-			Destroy((burnable as BurningAnimal).gameObject);
+			burnable = other.GetComponentInParent<ICanBeSetOnFire>();
+			isInParent = true;
+		}
+		if (burnable == null)
+		{
+			burnable = other.GetComponentInChildren<ICanBeSetOnFire>();
+			isInChild = true;
+		}
+		if (burnable != null && !burnable.IsBurning() && burnable is BurningAnimal)
+		{
+			//if (!isInChild && !isInParent)
+			//{
+				Destroy((burnable as BurningAnimal).gameObject);
+			//}
 			StatsTracker._animalsSurvived++;
+
 		}
 	}
 
 	public Vector3 GetPosition()
 	{
-		if(_collider != null)
+		if (_collider != null)
 		{
 			return _collider.bounds.center;
 		}

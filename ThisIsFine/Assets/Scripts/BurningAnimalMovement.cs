@@ -87,7 +87,7 @@ public class BurningAnimalMovement : MonoBehaviour
                 _animator.SetBool(animatorMoveParameterName, true);
                 break;
             case (BurnState.extinguished):
-                _animator.SetBool(animatorMoveParameterName, false);
+                _animator.SetBool(animatorMoveParameterName, true);
                 _navMeshAgent.SetDestination(ExitZones.Instance.GetClosestExitZone(transform.position).GetPosition());
                 //_navMeshAgent.isStopped = true;
                 break;

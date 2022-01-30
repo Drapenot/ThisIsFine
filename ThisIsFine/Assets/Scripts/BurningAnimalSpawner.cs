@@ -6,6 +6,11 @@ public class BurningAnimalSpawner : MonoBehaviour
 {
     public List<BurningAnimalWithCuteness> animalList = new List<BurningAnimalWithCuteness>();
     private float _totalWeight = 50;
+    bool _canSpawn = true;
+    private float _timeSinceLastSpawn = 22f;
+    private float _timeToNextSpawn = 25f;
+    public float startInterval = 25f;
+    public float multiplierPerSpawn = 0.9f;
 
     // Start is called before the first frame update
     void Start()
@@ -17,17 +22,35 @@ public class BurningAnimalSpawner : MonoBehaviour
 		}
 
         GetComponent<MeshRenderer>().enabled = false;
-        InvokeRepeating("SpawnRandomAnimal", 0, 3f);
+
+        _timeToNextSpawn = startInterval;
+        _timeSinceLastSpawn = startInterval - 3;
+        //InvokeRepeating("SpawnRandomAnimal", 0, 3f);
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        _timeSinceLastSpawn += Time.deltaTime;
+        if(_timeSinceLastSpawn > _timeToNextSpawn)
+		{
+            SpawnRandomAnimal();
+            _timeSinceLastSpawn = 0;
+            _timeToNextSpawn = Mathf.Max(_timeToNextSpawn * multiplierPerSpawn, 0.1f);
+		}
     }
 
-    private void SpawnRandomAnimal()
+    public void StopSpawning()
 	{
+        _canSpawn = false;
+	}
+
+    public void SpawnRandomAnimal()
+	{
+        if(!_canSpawn)
+		{
+            return;
+		}
         var searchValue = Random.value * _totalWeight;
         var currentTotal = 0f;
         GameObject selectedAnimal = null;
@@ -50,7 +73,8 @@ public class BurningAnimalSpawner : MonoBehaviour
         offset.z *= Mathf.Sign(Random.Range(-1, 1));
         spawnPosition += offset;
 
-        GameObject.Instantiate(selectedAnimal, spawnPosition, Quaternion.identity);
+        var instance = GameObject.Instantiate(selectedAnimal, spawnPosition, Quaternion.identity);
+        instance.layer = selectedAnimal.layer;
 
 	}
 }
