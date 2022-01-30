@@ -8,6 +8,7 @@
 {28039d71-5c9e-43c8-b6ec-dbf125211a19} event:/Animals/sfx_chick
 {f73ac925-ba6d-4583-a62a-d02f7486e9a0} event:/Animals/sfx_croc
 {7a3680b3-0850-423f-97ef-3a9fdc7dc9e0} event:/Animals/sfx_shark
+{5c375c1d-e50b-4037-bcaa-cbcf8b5d7c38} event:/Music/mus_main
 {0df4a4d6-8a79-4ad9-a55f-c9ec629ad281} event:/Other/sfx_flame
 {13644968-0480-46b3-8ecc-38eb138c1765} event:/TestSound
 {a8227a8d-ac23-4109-a167-1c5c974943b0} event:/World/sfx_fire
