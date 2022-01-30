@@ -41,9 +41,9 @@ public class Bucket : MonoBehaviour
             bucketEmpty = true;
             print("bucket empty");
             waterPlane.SetActive(false);
-            waterParticle.GetComponent<ParticleSystem>().Play();
+            //waterParticle.GetComponent<ParticleSystem>().Play();
             var instance = Instantiate(bullet, transform.position + mainCamera.transform.forward * 1.5f, transform.rotation);
-            instance.GetComponent<Rigidbody>().AddForce(mainCamera.transform.forward * 200f);
+            instance.GetComponent<Rigidbody>().AddForce(mainCamera.transform.forward * 800f);
             Destroy(instance, 0.8f);
         }
 
