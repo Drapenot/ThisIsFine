@@ -144,6 +144,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 5539143976314934617}
   cacheTime: 637791587034712175
+  cacheTime: 637791592513703334
   cacheVersion: 10
 --- !u!114 &1804915247079865372
 MonoBehaviour:
@@ -323,6 +324,7 @@ MonoBehaviour:
   Name: Master.strings
   StudioPath: bank:/Master.strings
   lastModified: 637791587034712175
+  lastModified: 637791592513703334
   FileSizes:
   - Name: 
     Value: 1420
@@ -353,6 +355,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 15
+  MaxDistance: 20
   Length: 17000
 --- !u!114 &5870512900701315213
 MonoBehaviour:
@@ -397,6 +400,7 @@ MonoBehaviour:
   Name: Master
   StudioPath: bank:/Master
   lastModified: 637791587034692242
+  lastModified: 637791592513683390
   FileSizes: []
   Exists: 1
 --- !u!114 &7675423387526390867
