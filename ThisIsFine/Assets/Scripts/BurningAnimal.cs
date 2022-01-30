@@ -134,6 +134,7 @@ public class BurningAnimal : MonoBehaviour, ICanBeSetOnFire
 
         if(transform.position.y < -30)
 		{
+            FindObjectOfType<BurningAnimalSpawner>().SpawnRandomAnimal();
             Destroy(gameObject);
 		}
     }
